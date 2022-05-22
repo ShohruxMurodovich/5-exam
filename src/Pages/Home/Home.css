@@ -1,0 +1,91 @@
+
+.hero{
+  display: flex;
+}
+
+.hero__channel{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dark .hero__channel-title{
+  color: white;
+}
+
+.hero__channel-title{
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+  margin-left: 20px;
+}
+
+.hero__list{
+  display: flex;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  width: 1280px;
+  padding-bottom: 10px;
+}
+
+.active-title{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* wegwefwef */
+
+.hero__item--active{
+  width: 450px;
+  margin-right: 40px;
+}
+
+.hero__item-img--active{
+  width: 450px;
+  height: 250px;
+  border-radius: 14px;
+}
+
+.hero__item-link--active{
+  text-decoration: none;
+}
+
+.hero__item-text--active{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202C;
+}
+
+.item-case--active{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-inner-text--active{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2
+}
+
+.hero-case{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-rec{
+  font-size: 16px;
+  line-height: 20px;
+  color: #C2C2C2;
+  margin-left: 30px;
+  margin-bottom: 23px;
+}

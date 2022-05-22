@@ -1,0 +1,26 @@
+.options__item{
+  color: #898989;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 0;
+}
+
+
+
+.link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #898989;
+}
+
+.active{
+  fill: red;
+  color: red;
+}
+
+.options__text{
+  margin-left: 13px;
+}

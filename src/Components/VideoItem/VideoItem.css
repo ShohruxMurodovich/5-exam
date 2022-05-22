@@ -1,0 +1,39 @@
+.hero__item{
+  width: 250px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.hero__item-img{
+  width: 250px;
+  height: 150px;
+  border-radius: 14px;
+}
+
+.hero__item-link{
+  text-decoration: none;
+}
+
+.dark .hero__item-text{
+  color: #fff;
+}
+
+.hero__item-text{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202C;
+}
+
+.item-case{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-inner-text{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2
+}

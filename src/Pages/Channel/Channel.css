@@ -1,0 +1,194 @@
+.channel{
+  display: flex;
+  overflow: hidden;
+}
+
+.channel-img{
+  width: 1220px;
+}
+
+.channel-ava{
+  width: 60px;
+  height: 60px;
+}
+
+.channel-inner{
+  padding-right: 70px;
+}
+
+.channel-header{
+  display: flex;
+  margin-top: 30px;
+}
+
+.channel-right{
+  display: flex;
+  align-items: center;
+  margin-left: 730px;
+}
+
+.notic{
+  margin-right: 20px;
+}
+
+.channel-name{
+  display: flex;
+  align-items: center;
+}
+
+.case{
+  margin-left: 14px;
+}
+
+.active{
+  fill: #000;
+}
+
+.dark .active{
+  fill: #fff;
+}
+
+.channel-subs{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2;
+}
+
+.channel-title{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+}
+
+.channel-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.dark .channel-item{
+  color: #fff;
+}
+
+.channel-item{
+  padding: 3px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.channel-item:nth-child(1){
+  color:  #FF0000;
+  text-decoration: underline;
+}
+
+.channel-item + .channel-item{
+  margin-left: 60px;
+}
+
+.channel-main{
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.rec-title{
+  font-size: 16px;
+  line-height: 20px;
+  color: #C2C2C2;
+}
+
+.channel-inner-right{
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.rec-case{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.rec-img{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.rec-name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #19202C;
+}
+
+.single-img{
+  width: 500px;
+  height: 250px;
+}
+
+.single{
+  display: flex;
+  align-items: center;
+}
+
+.single-case{
+  width: 420px;
+  margin-left: 32px;
+}
+
+.single-title{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  color: #19202C;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.single-text{
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.single-view{
+  font-size: 16px;
+  line-height: 22px;
+  color: #C2C2C2;
+}
+
+.channel-video__text{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+}
+
+.channel-video{
+  overflow-x: auto;
+}
+
+
+.channel-video-list{
+  width: 1300px;
+  display: flex;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}

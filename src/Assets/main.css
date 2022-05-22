@@ -1,0 +1,40 @@
+body{
+  font-family: 'Mulish', sans-serif;
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+.dark{
+  color: #fff;
+  background-color: #17171E;
+}
+
+.svg{
+  fill: #000;
+}
+
+.dark svg{
+  fill: white;
+}
+
+.dark h2 {
+  color: #fff;
+}
+
+.dark h3 {
+  color: #fff;
+}
+
+.dark h4 {
+  color: #fff;
+}
+
+.dark span {
+  color: #fff;
+}
+
+.dark p {
+  color: #fff;
+}
