@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Header() {
 
-  const [darkMode, setDarkMode] = useState(window.localStorage.getItem("darkmode") || false);
+  const [darkMode, setDarkMode] = useState(window.localStorage.getItem("darkmode"));
 
   const handleDark = () =>{
     setDarkMode(window.localStorage.setItem("darkmode" , darkMode))

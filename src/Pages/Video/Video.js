@@ -38,7 +38,6 @@ const Video = () => {
     channel.filter(item => item.id === video.albumId)
   )
 
-  console.log(filteredVideo);
   return (
     <>
       <Header />

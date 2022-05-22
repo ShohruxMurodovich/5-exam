@@ -25,7 +25,6 @@ const Home = () => {
       .then(data => setFood([...data]))
   }, [])
 
-  console.log(food);
 
   return (
     <>
