@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Hamburg, Logo, Icons, } from "../../Assets/Images/Icons/Icon"
 import "./Header.css"
 import avatar from "../../Assets/Images/header-ava.png"
@@ -6,18 +6,19 @@ import { NavLink } from 'react-router-dom'
 
 export default function Header() {
 
-  const [darkMode, setDarkMode] = useState(window.localStorage.getItem("darkmode") || false);
+  const [darkMode, setDarkMode] = useState(window.localStorage.getItem('darkmode') || false);
 
   const handleDark = () =>{
-    setDarkMode(window.localStorage.setItem("darkmode" , darkMode))
+
     setDarkMode(!darkMode)
     if(darkMode){
-      document.body.classList.add('dark')
-    }else(
-      document.body.classList.remove('dark')
-    )
-
+      document.body.classList.add("dark")
+    }else{
+      document.body.classList.remove("dark")
+    }
+    window.localStorage.setItem('darkmode' , darkMode)
   }
+
 
 
   return (
@@ -27,7 +28,7 @@ export default function Header() {
         <NavLink to="/"><Logo className="Logo" /></NavLink>
         <input placeholder='Search' className='search' autoComplete='off' type="search" name="search"></input>
 
-        <div className={window.localStorage.getItem("darkmode") ? "dark-mode" : "light-mode"}>
+        <div className={darkMode ? "dark-mode" : "light-mode"}>
           <div className="container">
             <span className='dark-text' style={{ color: darkMode ? "grey" : "yellow" }}>☀︎</span>
             <div className="switch-checkbox">
